@@ -41,6 +41,12 @@
       "issueDescription": "wewewe",
       "severity": "Major",
       "status": "Open"
+    },
+    {
+      "id": "5a037247-fa0c-448d-ab06-ce28dc8db79d",
+      "issueDescription": "Assignment Submissionn",
+      "severity": "Critical",
+      "status": "Closed"
     }
   ]
 }

@@ -6,6 +6,7 @@ import NotFound from "../containers/NotFound/NotFound";
 import AllIssues from "../containers/IssuesList/AllIssues";
 import About from "../containers/AboutContainer/About";
 import IssueDetail from "../containers/IssuesList/IssueDetail/IssueDetail";
+import IssueFormIK from "../containers/NewIssue/IssueFormIK";
 
 export default class App extends React.Component {
   render() {
@@ -28,6 +29,7 @@ export default class App extends React.Component {
             <Route path="/" component={AllIssues} />
             <Route component={NotFound} />
           </Switch>
+          <IssueFormIK />
         </div>
       </BrowserRouter>
     );
